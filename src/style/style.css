@@ -1,0 +1,135 @@
+/* @font-face {
+  font-family: 'avatar';
+  src: url(./assets/fonts/herculanum.ttf);
+}
+*/
+/* @font-face {
+  font-family: 'Bangers';
+  src: url(./assets/fonts/LEVIBRUSH.TTF);
+} */
+
+/* @font-face {
+  font-family: 'Bangers';
+  src: url(./assets/fonts/PermanentMarker-Regular.TTF);
+} */
+
+/* @font-face {
+  font-family: 'Bangers';
+  src: url(./assets/fonts/Hoodson-free-font.ttf);
+} */
+
+
+/*
+@font-face {
+  font-family: 'Bangers';
+  src: url(./assets/fonts/bignoodletoo.woff);
+}
+ */
+
+/* @font-face {
+  font-family: 'Lato';
+  src: url(./assets/fonts/koverwatch.ttf);
+} */
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #131333;
+  /* font-family: 'Bebas Neue', sans-serif; */
+  /* font-family: 'Staatliches', cursive; */
+  font-family: 'Bangers', cursive;
+  /* font-family: avatar; */
+  width: 100%;
+  min-height: 100%;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.mobile-img{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  top: 30%;
+}
+
+.mobile-text{
+  display: block;
+  font-size: 1.75em;
+  position: relative;
+  top: 25%;
+}
+
+.mobile-horizontal .mobile-img{
+  top: 10%;
+}
+
+.mobile-horizontal .mobile-text{
+  top: 10%;
+}
+
+#scene{
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* cursor: none; */
+  display: none;
+
+}
+
+#video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+
+#speed{
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  height: 100px;
+  width: 50px;
+  background: rgb(0,255,158);
+  background: linear-gradient(0deg, rgba(0,255,158,1) 0px, rgba(0,196,184,1) 100px,rgba(0,196,184,1) 200px, rgba(255,89,0,1) 100%);
+  z-index: 200;
+  /* transform: scale(2); */
+}
+
+#score {
+  position: absolute;
+  z-index: 999;
+  right: 100px;
+  top: 100px;
+  color: rgb(250, 0, 0);
+  font-size: 5em;
+}
+
+#lifesContainer{
+  position: absolute;
+  right: 0;
+  width: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.life{
+  width: 60px;
+  height: 60px;
+}
+
+.dg{
+  z-index: 999!important;
+}

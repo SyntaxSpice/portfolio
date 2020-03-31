@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./src/style/style.css" />
+  <link rel="stylesheet" href="./src/style/ui.css" />
+  <link rel="stylesheet" href="./src/style/button.css" />
+  <link rel="stylesheet" href="./src/style/moon.css" />
+  <!-- <script src="./src/js/libs/stats.min.js"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Anatolii Yamburenko | Portfolio</title>
+</head>
+
+<body>
+  <div id="mobileScreen">
+    <span class="mobile-text">Hey! Mobile version isn't desinged yet, check it later!</span> 
+    <img src="./src/assets/img/mobile2.png" class="mobile-img">
+  </div>
+  <div id="scene">
+    <div class="section" id="Loader">
+      <div id="loading"></div>
+      <div class="moon-wrap moonAnimated">
+        <svg width="400" height="400" viewPort="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    
+            <path id="bowl" fill-rule="evenodd" fill="rgb( 19, 19, 51 )"
+                d="M194.115,136.050 C234.545,136.050 267.321,168.722 267.321,209.025 C267.321,249.328 234.545,282.000 194.115,282.000 C153.684,282.000 120.909,249.328 120.909,209.025 C120.909,168.722 153.684,136.050 194.115,136.050 Z" />
+    
+            <path id="liquid" fill-rule="evenodd" clip-path="url(#clipPath)" fill="rgb( 255, 255, 255 )"
+                d="M194.115,136.050 C234.545,136.050 267.321,168.722 267.321,209.025 C267.321,249.328 234.545,282.000 194.115,282.000 C153.684,282.000 120.909,249.328 120.909,209.025 C120.909,168.722 153.684,136.050 194.115,136.050 Z" />
+    
+            <clipPath id="clipPath">
+                <path id="clippingPath"
+                    d="M802.000,464.000 C802.000,464.000 401.000,464.000 401.000,464.000 C401.000,464.000 400.000,464.000 400.000,464.000 C400.000,464.000 -1.000,464.000 -1.000,464.000 C-1.000,464.000 -2.498,292.434 -1.000,240.000 C103.869,240.000 120.123,189.000 200.000,189.000 C274.426,189.000 300.545,239.829 400.511,239.996 C504.916,239.829 521.255,189.000 601.000,189.000 C675.549,189.000 701.625,240.000 802.000,240.000 C799.004,240.000 802.000,464.000 802.000,464.000 Z" />
+            </clipPath>
+        </svg>
+        <div class="moonMask"></div>
+    </div>
+    
+  </div>
+    <div id="Menu" class="section">
+      <div class="nav-wrap animated">
+        <div class="menu-item nav-item yellow-hover" value="4" scrollTip="true">WebGL</div>
+        <div class="menu-item nav-item yellow-hover" value="5" scrollTip="true">Unity</div>
+        <div class="menu-item nav-item yellow-hover" value="3" scrollTip="true">Blender</div>
+        <div class="menu-item nav-item yellow-hover" value="2" scrollTip="true">Frontend</div>
+        <div class="menu-item nav-item small-menu-item yellow-hover" value="1">About</div>
+        <div class="menu-item" id="links">
+          <a href="http://bit.ly/2p1BIcs" target="_blank"><i class="fa fa-github yellow-hover" aria-hidden="true">&ensp;</i></a>
+          <a href="http://bit.ly/2pd1f1F" target="_blank"><i class="fa fa-linkedin-square yellow-hover"
+              aria-hidden="true">&ensp;</i></a>
+          <i class="fa fa-envelope yellow-hover" aria-hidden="true" data-title="Click to copy!"></i>
+        </div>
+      </div>
+      <div class="quality-wrap">
+        <span class="quality yellow-hover" value="hight">hight</span>
+        <span class="quality yellow-hover" value="ultra">ultra</span>
+      </div>
+    </div>
+
+    <div id="scroll">
+      <section class="scroll-button">
+        <span></span>
+      </section>
+    </div>
+
+    <div id="WebGL" class="section">
+      <div class="arrow-wrap">
+        <div class="back-arrow nav-item" value="0">
+          <img src="./src/assets/img/white-hand-drawn-arrow-png.png" class="go-back" alt="Go back">
+        </div>
+      </div>
+      <div class="row webgl-works" id="webgl-template">
+        <div class="webgl-text animated">
+          <h1 class="webgl-unity-title">McDonalds</h1>
+          <p class="webgl-unity-description"></p>
+          <p class="stack-wrapper">
+            <span class="link-wrapper">
+              Website: <a target=“_blank” class="project-link" href=""></a> |
+            </span>
+            Stack: <span class="fe-stack"></span></p>
+          <div class="explore-webgl" value="7" scrollTip="true" id="ExploreWebGL">Explore</div>
+          <div class="soon-project">Creativity is coming!</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="Unity" class="section">
+      <div class="arrow-wrap">
+        <div class="back-arrow nav-item" value="0">
+          <img src="./src/assets/img/white-hand-drawn-arrow-png.png" class="go-back" alt="Go back">
+        </div>
+      </div>
+      <div class="row webgl-works" id="unity-template">
+        <div class="webgl-text animated">
+          <h1 class="webgl-unity-title"></h1>
+          <p class="webgl-unity-description">
+            <p class="link-wrapper"> Website: <a class="project-link" href=""></a> </p>
+          </p>
+          <div class="explore-webgl" value="6" scrollTip="true" id="ExploreUnity">Explore</div>
+          <div class="soon-project">Creativity is coming!</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="About" class="container about-me section">
+      <div class="arrow-wrap">
+        <div class="back-arrow nav-item" value="0">
+          <img src="./src/assets/img/white-hand-drawn-arrow-png.png" class="go-back" alt="Go back">
+        </div>
+      </div>
+      <div id="about" class="animated">
+        <p id="about-title">Hello!</p>
+        <p>My name is Anatolii Yamburenko, I'm Creative Developer based in Paris
+          with over 6 years of professional experience. <br> <br> As a Creative Frontend Developer
+          with a love for creating spectacular animations and interactions, it's always
+          essential for me to strike a balance between visual aesthetics and performance optimization.</p>
+        <p>I'm always open for new opportunities all over the world.
+          <br> Feel free to contact me: <br>
+          <a href="http://bit.ly/2p1BIcs" target="_blank"><i class="fa fa-github about-links yellow-hover"
+              aria-hidden="true">&ensp;</i></a>
+          <a href="http://bit.ly/2pd1f1F" target="_blank"><i class="fa fa-linkedin-square about-links yellow-hover"
+              aria-hidden="true">&ensp;</i></a>
+          <i class="fa fa-envelope yellow-hover" aria-hidden="true" data-title="Click to copy!"></i>
+        </p>
+      </div>
+    </div>
+
+    <div id="FrontEnd" class="section">
+      <div class="arrow-wrap">
+        <div class="back-arrow nav-item" value="0">
+          <img src="./src/assets/img/white-hand-drawn-arrow-png.png" class="go-back" alt="Go back">
+        </div>
+      </div>
+      <div class="col-6"></div>
+      <div style="width: 100%; height: 100%; position: absolute;" class="scroll">
+        <div class="col-5 fe-projects">
+          <div class="fe-project">
+            <h1 class="frontend-title"></h1>
+            <div class="fe-view"></div>
+            <div class="comics-link">
+              Website: <a class="fe-link" target="_blank" href=""></a>
+            </div>
+            <p class="frontend-description">
+              <span class="fe-description"></span>
+              
+              <div class="link-stack">
+                Stack: <span class="fe-stack"></span>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Blender" class="section">
+      <div class="arrow-wrap">
+        <div class="back-arrow nav-item" value="0">
+          <img src="./src/assets/img/white-hand-drawn-arrow-png.png" class="go-back" alt="Go back">
+        </div>
+      </div>
+    </div>
+
+    <div id="UnityFull" class="section">
+      <div class="arrow-wrap" id="backToUnity">
+        <div class="back-arrow nav-item" value="5" scrollTip="true">
+          <img src="./src/assets/img/white-hand-drawn-arrow-png.png" class="go-back" alt="Go back">
+        </div>
+      </div>
+      <div id="UnityFullContent" class="full-content scroll"></div>
+    </div>
+
+    <div id="WebGLFull" class="section">
+      <div class="arrow-wrap" id="backToWebGL">
+        <div class="back-arrow nav-item" value="4" scrollTip="true">
+          <img src="./src/assets/img/white-hand-drawn-arrow-png.png" class="go-back" alt="Go back">
+        </div>
+      </div>
+      <div id="WebGLFullContent" class="full-content scroll"></div>
+    </div>
+
+    <div id="Init" class="section">
+      <h1 class="init-title" id="initTitle">Anatolii <br> Yamburenko</h1>
+      <div class="under-title">developer | artist | designer</div>
+      <div id="initScroll">
+        <section class="scroll-button">
+          <span></span>
+        </section>
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+<script src="app.js" type="text/javascript"></script>
+
+</html>

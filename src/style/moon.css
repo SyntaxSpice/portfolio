@@ -1,0 +1,66 @@
+svg {
+    z-index: 999;
+    position: relative;
+}
+  
+#clipPath {
+    -webkit-animation: waterClimb 6s linear 1;
+    transform: translateY(-110px); 
+}
+#clippingPath{
+    -webkit-animation: waterSlide 2.5s infinite linear;     
+}
+   
+@-webkit-keyframes waterSlide {
+    0%   { transform: translateX(126px); }
+    100% { transform: translateX(-273px); }
+}
+  
+@-webkit-keyframes waterClimb {
+    0% { transform: translateY(50px); }
+    100% { transform: translateY(-70px); }
+}  
+
+.moonMask{
+    position: absolute;
+    width: 146.41px;
+    height: 145.95px;
+    background-color: #131333;
+    border-radius: 50%;
+      /* left: 121.025px; */
+    left: 100.025px;
+    top: 135.795px;
+    z-index: 22222;
+    animation-name: eclipse;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.moon-wrap-ani{
+    position: absolute;
+    top: 0;
+}
+
+@keyframes eclipse {
+    from {
+        transform: translateX(0px) translateY(0px);
+    }
+    to {
+      transform: translateX(-25px) translateY(-30px);
+    }
+}
+
+.moon-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 100;
+    transition: 2s;
+}
+
+.moonAnimated .moon-wrap{
+    transition: 2s;
+    transform: translateX(-50%) translateY(-300%);
+}
