@@ -433,9 +433,9 @@ a > .back-arrow {
 }
 
 #scroll {
-  position: sticky;
+  /* position: sticky;
   top: 90%;
-  transform: translateX(95.5%);
+  transform: translateX(95.5%); */
 
   display: none;
 }
@@ -454,6 +454,11 @@ a > .back-arrow {
   border: 0.2vw solid #fff;
   border-radius: 50px;
   box-sizing: border-box;
+}
+
+#scroll span {
+  bottom: 1vw;
+    right: 2vw;
 }
 
 .scroll-button span::before {
