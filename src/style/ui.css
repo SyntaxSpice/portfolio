@@ -21,6 +21,7 @@
   z-index: 9999;
   margin-top: 4vh;
   /* display: none; */
+  text-align: left;
 }
 
 iframe {
@@ -286,6 +287,10 @@ a > .back-arrow {
   margin: 0 auto;
   cursor: pointer;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  width: max-content;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content
 }
 
 #ExploreUnity{
@@ -301,6 +306,11 @@ a > .back-arrow {
   margin: 0 auto;
   cursor: pointer;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  width: max-content;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content
+
 }
 
 .explore-webgl:hover {
